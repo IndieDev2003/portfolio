@@ -40,7 +40,7 @@ function Page5() {
   return (
     <div
       ref={page5Ref}
-      className="page5 h-screen w-screen flex items-center justify-center border-t"
+      className="page5 h-screen w-screen flex items-center justify-center  "
     >
       <div className="text-center">
         <p className="p-up text-nowrap text-4xl sm:text-6xl text-gray-500 font-bold">

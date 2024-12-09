@@ -37,7 +37,7 @@ function Contact() {
   return (
     <div
       ref={contactRef}
-      className="min-h-screen w-screen px-5 sm:px-10 border-t"
+      className="min-h-screen w-screen px-5 sm:px-10  "
     >
       <div className="w-full mt-[10vh]">
         <h3 className="heading text-2xl">Contact</h3>

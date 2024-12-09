@@ -37,7 +37,7 @@ function Page4() {
   return (
     <div
       ref={page4Ref}
-      className="relative border-t h-screen w-screen flex justify-center items-center"
+      className="relative   h-screen w-screen flex justify-center items-center"
     >
       <h3 className="text-6xl text-center font-medium bg-black">
         I have a <span className="text">strong</span> obsession for attention to

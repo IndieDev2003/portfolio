@@ -110,7 +110,7 @@ function Skills() {
   return (
     <div
       ref={page3Ref}
-      className="page3 min-h-[110vh] w-screen border-t px-10 py-10 flex flex-col"
+      className="page3 min-h-[110vh] w-screen   px-10 py-10 flex flex-col"
     >
       <div className=" h-full flex flex-col justify-center gap-3">
         <h3 ref={compRef} className="text-xl">
