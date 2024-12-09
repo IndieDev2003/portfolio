@@ -16,7 +16,7 @@ function Contact() {
           start: "10% 80%",
           end: "top top",
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       });
 
