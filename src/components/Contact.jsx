@@ -19,9 +19,14 @@ function Contact() {
         },
       });
 
-      tl.from(".heading", {
+      tl.from(".heading1", {
         x: -1000,
-        stagger: 0.6,
+      });
+      tl.from(".heading2", {
+        x: -1000,
+      });
+      tl.from(".heading3", {
+        x: -1000,
       });
       tl.from(".form-con .input", {
         y: 100,
@@ -40,9 +45,9 @@ function Contact() {
       className="min-h-screen w-screen px-5 sm:px-10  "
     >
       <div className="w-full mt-[10vh]">
-        <h3 className="heading text-2xl">Contact</h3>
-        <h2 className="heading text-5xl text-purple-600 my-3">Contact</h2>
-        <h3 className="heading text-2xl">Get In Touch</h3>
+        <h3 className="heading1 text-2xl">Contact</h3>
+        <h2 className="heading2 text-5xl text-purple-600 my-3">Contact</h2>
+        <h3 className="heading3 text-2xl">Get In Touch</h3>
       </div>
       <div className="form-con w-full flex items-center justify-center mt-10">
         <div className="flex flex-col justify-center text-center min-w-[350px] sm:min-w-[550px] gap-2">
