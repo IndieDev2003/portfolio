@@ -21,7 +21,8 @@ function Contact() {
 
       tl.from(".contactPage h3", {
         x: -1000,
-        duration:0.2
+        duration: 0.2,
+        stagger:0.8
       });
       
       tl.from(".form-con .input", {
