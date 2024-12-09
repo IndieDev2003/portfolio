@@ -21,12 +21,15 @@ function Contact() {
 
       tl.from(".heading1", {
         x: -1000,
+        duration:0.2
       });
       tl.from(".heading2", {
-        x: -1000,
+        x: -800,
+        duration:0.2
       });
       tl.from(".heading3", {
-        x: -1000,
+        x: -700,
+        duration:0.2
       });
       tl.from(".form-con .input", {
         y: 100,
