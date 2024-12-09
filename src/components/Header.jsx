@@ -12,14 +12,6 @@ gsap.registerPlugin(useGSAP);
 function Header() {
   const headerRef = useRef(null);
 
-  const { contextSafe } = useGSAP();
-
-  const goToSet = contextSafe((e) => {
-    console.log(e)
-    gsap.to('body', {
-      scrollTo:`#${e}`
-    })
-  });
 
   useGSAP(
     () => {

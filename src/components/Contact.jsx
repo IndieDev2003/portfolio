@@ -49,7 +49,7 @@ function Contact() {
     >
       <div className="w-full mt-[10vh]">
         <h3 className="heading1 text-2xl">Contact</h3>
-        <h2 className="heading2 text-5xl text-purple-600 my-3">Contact</h2>
+        <h3 className="heading2 text-5xl text-purple-600 my-3">Contact</h3>
         <h3 className="heading3 text-2xl">Get In Touch</h3>
       </div>
       <div className="form-con w-full flex items-center justify-center mt-10">
