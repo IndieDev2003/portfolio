@@ -19,18 +19,11 @@ function Contact() {
         },
       });
 
-      tl.from(".heading1", {
+      tl.from(".contactPage h3", {
         x: -1000,
         duration:0.2
       });
-      tl.from(".heading2", {
-        x: -800,
-        duration:0.2
-      });
-      tl.from(".heading3", {
-        x: -700,
-        duration:0.2
-      });
+      
       tl.from(".form-con .input", {
         y: 100,
         opacity: 0,
@@ -45,7 +38,7 @@ function Contact() {
   return (
     <div
       ref={contactRef}
-      className="min-h-screen w-screen px-5 sm:px-10  "
+      className="contactPage min-h-screen w-screen px-5 sm:px-10  "
     >
       <div className="w-full mt-[10vh]">
         <h3 className="heading1 text-2xl">Contact</h3>
