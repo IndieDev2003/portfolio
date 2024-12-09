@@ -66,7 +66,7 @@ function Hero() {
   return (
     <section
       ref={heroRef}
-      id="#Home"
+      
       className="hero flex h-screen w-screen items-center px-5 sm:px-10 outfit"
     >
       <div className="flex flex-col gap-3 text-start items-start sm:w-[50vw]">

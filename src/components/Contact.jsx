@@ -13,18 +13,19 @@ function Contact() {
       const tl = gsap.timeline({
         scrollTrigger: {
           trigger: contactRef.current,
-          start: "top 80%",
-          end: "bottom 100%",
+          start: "10% 80%",
+          end: "top top",
           scrub: true,
+          markers: true,
         },
       });
 
-      tl.from(".contactPage h3", {
+      tl.from(".head h3", {
         x: -1000,
         duration: 0.2,
-        stagger:0.8
+        stagger: 0.8,
       });
-      
+
       tl.from(".form-con .input", {
         y: 100,
         opacity: 0,
@@ -39,9 +40,9 @@ function Contact() {
   return (
     <div
       ref={contactRef}
-      className="contactPage min-h-screen w-screen px-5 sm:px-10  "
+      className="contactPage h-screen w-screen px-5 sm:px-10  "
     >
-      <div className="w-full mt-[10vh]">
+      <div className="head w-full mt-[10vh]">
         <h3 className="heading1 text-2xl">Contact</h3>
         <h3 className="heading2 text-5xl text-purple-600 my-3">Contact</h3>
         <h3 className="heading3 text-2xl">Get In Touch</h3>
