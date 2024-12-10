@@ -67,7 +67,7 @@ function Hero() {
     <section
       ref={heroRef}
       
-      className="hero flex h-screen w-screen items-center px-5 sm:px-10 outfit"
+      className="hero flex min-h-screen w-screen items-center px-5 sm:px-10 outfit"
     >
       <div className="flex flex-col gap-3 text-start items-start sm:w-[50vw]">
         <p className="text-xl sm:text-2xl ">Hi, my name is</p>
@@ -107,7 +107,7 @@ function Hero() {
           className="hero-img h-[80vh] object-cover absolute"
           alt=""
         />
-        <h2 className="absolute top-[30vh] -right-20 rotate-90 text-gray-900 text-[120px]">
+        <h2 className="absolute -top-[30vh] -right-20 rotate-90 text-gray-900 text-[120px]">
           DEV
         </h2>
       </div>

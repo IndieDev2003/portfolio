@@ -44,7 +44,7 @@ function Page2() {
 
 
   return (
-    <div ref={page2Ref} className="h-[110vh] w-screen px-2 sm:px-10 flex flex-col items-center justify-center">
+    <div ref={page2Ref} className="min-h-[110vh] w-screen px-2 sm:px-10 flex flex-col items-center justify-center">
       <p ref={para1Ref} className="text-3xl sm:text-7xl text-center">
         I'm a passionate frontend devloper who's focused on building scalable
         and performant apps.

@@ -18,13 +18,12 @@ function Page4() {
           scrub: 1,
         },
       });
-          tl.from('.page4 h3', {
-              y:-200
-          })
+      tl.from(".page4 h3", {
+        y: -200,
+      });
       tl.from(".page4 h3 ", {
-          x: -300,
-          duration: 3,
-  
+        x: -300,
+        duration: 3,
       });
       tl.to(".page4 h3 .text", {
         color: "#3b82f6",
@@ -37,7 +36,7 @@ function Page4() {
   return (
     <div
       ref={page4Ref}
-      className="relative  page4 h-screen w-screen flex justify-center items-center"
+      className="relative page4 min-h-screen w-screen flex justify-center items-center"
     >
       <h3 className="text-6xl text-center font-medium bg-black">
         I have a <span className="text">strong</span> obsession for attention to
